@@ -1,0 +1,179 @@
+.food-sense {
+
+	.subscribe-container {
+		border-top:1px dashed #000000;
+		border-bottom:1px dashed #000000;
+		padding: 5px;
+	}
+
+	.recipe-container {
+		padding:5px;
+		border:1px solid #969695
+	}
+	
+	.list-group-item {
+		border: none;
+		color: $link-color;
+		font-style: italic;
+		font-weight: bold;
+		&:hover {
+			background-color: transparent;
+			cursor: pointer;
+		};
+	}
+
+	.logo {
+		background-image: url(assets/images/food-sense.png);
+		height: 121px;
+		width: 137px;
+		overflow: hidden;
+	}
+
+	.jumbotron {
+		background-image: url(assets/images/0140_foodsense.jpg);
+		height:400px;
+	}
+
+	input, button {
+		width: 100%;
+	}
+
+	.bright-grey {
+		color: $bright-grey;
+	}
+	@media screen and (min-width: 992px) {
+		.jumbotron {
+			position: relative;
+		}
+		.tag {
+			position: absolute;
+			top: 250px;
+			right: 0px;
+		}
+		.cooking {
+			text-align: right;
+			span {
+				background-color: $white-color;
+				color: $grey-color;
+				font-size: 22px;
+				font-weight: bold;
+				font-style: italic;
+				padding: 3px 10px;
+			}
+		}
+		.cooking-description {
+			background-color: $grey-color;
+			color: $white-color;
+			font-style: italic;
+			padding: 3px 10px;
+		}	
+	}
+
+	@media screen and (max-width: 1199px) {
+		.sidebar-offcanvas {
+			position: inherit;
+		}
+
+		.list-group {
+			height: 150px;
+		}
+
+		.list-group .list-group-item {
+		    display: inline-block;
+		    line-height: 50px;
+		    vertical-align:  middle;
+		    i {
+		    	display: block;
+		    	text-align: center;
+		    }
+		}	
+
+		.jumbotron {
+			position: relative;
+		}
+		.tag {
+			position: absolute;
+			top: 250px;
+			right: 0px;
+		}
+		.cooking {
+			text-align: right;
+			span {
+				background-color: $white-color;
+				color: $grey-color;
+				font-size: 22px;
+				font-weight: bold;
+				font-style: italic;
+				padding: 3px 10px;
+			}
+		}
+		.cooking-description {
+			background-color: $grey-color;
+			color: $white-color;
+			font-style: italic;
+			padding: 3px 10px;
+		}			
+	}
+
+	@media screen and (max-width: 991px) {
+		.list-group {
+			height: 150px;
+		}
+
+		.list-group .list-group-item {
+		    display: inline-block;
+		    line-height: 50px;
+		    vertical-align: middle;
+		    i {
+		    	display: none;
+		    }
+		}
+
+		.jumbotron {
+			position: relative;
+			.tag {
+				position: absolute;
+				top: 340px;
+				left: 0px;
+			}
+		}
+
+		.cooking {
+			background-color: $white-color;
+			color: $grey-color;
+			font-size: 22px;
+			font-weight: bold;
+			font-style: italic;
+			padding: 3px 10px;
+			text-align: left;
+		}
+
+		.cooking-description {
+			background-color: $grey-color;
+			color: $white-color;
+			font-style: italic;
+			padding: 3px 10px;
+		}		
+	}
+
+	@media screen and (max-width: 767px) {
+		.list-group {
+			height: 200px;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		.list-group .list-group-item:first-child {
+		    display: block;
+		    line-height: 50px;
+		    div {
+		    	margin: 0 auto;
+		    }
+		}
+
+		.list-group .list-group-item {
+		    display: inline-block;
+		    line-height: 50px;
+		}
+	}
+}
