@@ -1,0 +1,36 @@
+{
+  "name": "Food-Sense",
+  "description": "An implementation of RWD app in JS MVC",
+  "main": "/dist/food-sense.min.js",
+  "version": "0.0.1",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "~1.7.1",
+    "chalk": "~0.5.1",
+    "del": "~0.1.3",
+    "gulp": "^3.9.1",
+    "gulp-angular-filesort": "~1.0.4",
+    "gulp-angular-templatecache": "~1.4.2",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-csso": "~0.2.9",
+    "gulp-filter": "~1.0.2",
+    "gulp-inject": "~1.0.2",
+    "gulp-jshint": "~1.9.0",
+    "gulp-load-plugins": "~0.7.1",
+    "gulp-minify-html": "~0.1.7",
+    "gulp-ng-annotate": "~0.3.6",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "~1.0.1",
+    "gulp-useref": "~1.0.2",
+    "gulp-util": "^3.0.7",
+    "require-dir": "~0.1.0",
+    "vinyl": "^1.1.1",
+    "wiredep": "~2.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
